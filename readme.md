@@ -1,8 +1,7 @@
 Here is a basic Sanic API with JWT auth, exceptions handling, versioning and OpenAPI doc.
 
 ## How to use it?
-0. Install the requirements `pip install -r requirements.txt`
-1. Run the server `python server.py`
+1. `docker-compose -f docker-compose.yml up --build`
 2. Open http://localhost:8000/swagger/#/ to see the OpenAPI doc
 2. Use Postman or curl get a token at localhost:8000/v1/login (POST)
 3. Query localhost:8000/v1/hello (GET) to see a Hello World
