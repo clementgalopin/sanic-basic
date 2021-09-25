@@ -8,6 +8,7 @@ from login import login
 from hello import hello
 
 app = Sanic("My first Sanic API")
+
 app.config.API_SECRET = os.environ.get('API_SECRET')
 app.config.API_VERSION = '0.0.1'
 app.config.API_TITLE = 'My first Sanic API'
